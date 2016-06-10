@@ -26,7 +26,7 @@ public class factory {
         return dbH.doUpdate(query, params);
     }
     
-    public int deleteRows(){  //or rows
+    public int deleteRows(){  
         String query;
         ArrayList<Object> params = new ArrayList<>();
         int number_row = 36;
